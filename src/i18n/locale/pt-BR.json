@@ -9,6 +9,10 @@
       "hi": "Olá 👋",
       "my-name-is": "Meu nome é",
       "my-role": "Eu sou desenvolvedor React e eu crio plataformas web."
+    },
+    "my-stacks": {
+      "title": "Minhas tecnologias",
+      "description": "Tecnologias que tenho trabalhado ultimamente"
     }
   }
 }
