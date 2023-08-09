@@ -4,6 +4,11 @@
     "about": "Sobre",
     "stacks": "Tecnologias",
     "projects": "Projetos",
-    "contact": "Contato"
+    "contact": "Contato",
+    "introduction": {
+      "hi": "Olá 👋",
+      "my-name-is": "Meu nome é",
+      "my-role": "Eu sou desenvolvedor React e eu crio plataformas web."
+    }
   }
 }

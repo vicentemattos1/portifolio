@@ -4,6 +4,11 @@
     "about": "About",
     "stacks": "Tech Stack",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "introduction": {
+      "hi": "Hi 👋",
+      "my-name-is": "My name is",
+      "my-role": "I'm React developer and I build web plataforms."
+    }
   }
 }
