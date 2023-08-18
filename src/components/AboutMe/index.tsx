@@ -1,4 +1,5 @@
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import { useTranslation } from "react-i18next";
 
 export const AboutMe = () => {
@@ -13,10 +14,10 @@ export const AboutMe = () => {
         marginTop: "10px",
       }}
     >
-      <Box component="strong" sx={{ marginY: "40px" }}>
+      <Typography variant="h4" sx={{ marginY: "40px", fontWeight: "bold" }}>
         {t("about-me.title")}
-      </Box>
-      <Box sx={{ fontSize: "26px" }}>{t("about-me.description")}</Box>
+      </Typography>
+      <Typography>{t("about-me.description")}</Typography>
     </Box>
   );
 };

@@ -21,6 +21,7 @@ import Python3 from "../../assets/python-5.svg";
 import Django from "../../assets/django-community.svg";
 
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import { useTranslation } from "react-i18next";
 
@@ -128,13 +129,15 @@ export const Stacks = ({ align = "center" }: StacksProps) => {
         fontSize: "28px",
       }}
     >
-      <Box component="strong">{t("my-stacks.title")}</Box>
-      <Box sx={{ fontSize: "26px", marginY: "10px" }}>
+      <Typography variant="h4" sx={{ fontWeight: "bold" }}>
+        {t("my-stacks.title")}
+      </Typography>
+      <Typography sx={{ marginY: "10px" }}>
         {t("my-stacks.description")}
-      </Box>
+      </Typography>
       <Stack direction="row" flexWrap="wrap" spacing={0} useFlexGap>
         {techs.map((tech, index) => (
-          <Box
+          <Typography
             key={tech.label ?? index}
             sx={{
               display: "flex",
@@ -144,7 +147,6 @@ export const Stacks = ({ align = "center" }: StacksProps) => {
               flex: 1,
               minWidth: "150px",
               marginTop: "30px",
-              fontSize: "18px",
             }}
           >
             <Box
@@ -153,7 +155,7 @@ export const Stacks = ({ align = "center" }: StacksProps) => {
               sx={{ width: 50, height: 50, marginBottom: "5px" }}
             />
             {tech.label}
-          </Box>
+          </Typography>
         ))}
       </Stack>
     </Box>

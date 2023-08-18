@@ -87,9 +87,9 @@ export const Experiences = () => {
         marginTop: "10px",
       }}
     >
-      <Box component="strong" sx={{ marginY: "40px" }}>
+      <Typography variant="h4" sx={{ marginY: "40px", fontWeight: "bold" }}>
         {t("experiences")}
-      </Box>
+      </Typography>
       <Box sx={{ width: "100%" }}>
         {experiences.map((experience, index) => (
           <Accordion

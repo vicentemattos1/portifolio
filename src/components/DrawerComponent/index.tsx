@@ -44,7 +44,7 @@ export default function DrawerComponent({ options }: DrawerComponentProps) {
     };
 
   return (
-    <div>
+    <div style={{ padding: "10px 0 " }}>
       <Button
         sx={{ fontSize: "40px", color: "var(--text)" }}
         onClick={toggleDrawer("left", true)}

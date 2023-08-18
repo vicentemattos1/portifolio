@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import Typography from "@mui/material/Typography";
 import { useTranslation } from "react-i18next";
 
 import ProfilePNG from "../../assets/Profile.png";
@@ -16,18 +17,19 @@ export const Introduction = () => {
         width: "100%",
         justifyContent: "space-between",
         alignItems: "center",
-        marginY: isWideVersion ? "100px" : "50px",
+        marginY: isWideVersion ? "90px" : "45px",
         fontSize: "28px",
         color: "var(--title)",
         fontWeight: "500",
       }}
     >
-      <Box component="p" sx={{ marginTop: isWideVersion ? 0 : "30px" }}>
+      <Typography variant="h4" sx={{ marginTop: isWideVersion ? 0 : "30px" }}>
         {t("introduction.hi")}, <br />
         {t("introduction.my-name-is")}{" "}
-        <Box
+        <Typography
           component="strong"
           sx={{
+            fontSize: "inherit",
             background:
               "-webkit-linear-gradient(45deg, #13B0F5 10%, #E70FAA 100%)",
             WebkitBackgroundClip: "text",
@@ -35,10 +37,10 @@ export const Introduction = () => {
           }}
         >
           Vicente Mattos
-        </Box>
+        </Typography>
         <br />
         {t("introduction.my-role")}
-      </Box>
+      </Typography>
       <Box
         sx={{
           display: "flex",
