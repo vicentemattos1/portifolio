@@ -5,6 +5,12 @@
     "stacks": "Tecnologias",
     "projects": "Projetos",
     "contact": "Contato",
+    "present": "Presente",
+    "remote": "Remoto",
+    "about-me": {
+      "title": "Sobre mim",
+      "description": "Trabalhando com desenvolvimento web desde 2019, durante meu desenvolvimento eu trabalhei com Javascript, Typescript, ReactJS, NodeJS, HTML e CSS. Depois de alguns anos eu foquei mais no desenvolvimento Frontend usando ReactJS. Atualmente ReactJS é minha linguagem principal e trabalho para uma das maiores empresas de coaching construíndo plataformas."
+    },
     "introduction": {
       "hi": "Olá 👋",
       "my-name-is": "Meu nome é",
@@ -13,6 +19,47 @@
     "my-stacks": {
       "title": "Minhas tecnologias",
       "description": "Tecnologias que tenho trabalhado ultimamente"
+    },
+    "experiences": "Experiências",
+    "frontend": "Desenvolvedor Frontend",
+    "fullstack": "Desenvolvedor Fullstack",
+    "contract": "Contrato",
+    "full_time": "Tempo integral",
+    "experience-description": {
+      "prolins": {
+        "1": "Desenvolvedor para Febracis para um projeto que lida com mais de 50 mil clientes utilizando as tecnologias mais recentes de ReactJS, Typescriot, CSS, Redux, Radix e MaterialUI.",
+        "2": "Desenvolvimento de software com metodologias ágeis, como Scrum e Kanban, usando Taiga, Bitbucket/Github e Zulip.",
+        "3": "Trabalho colaborativo com equipe de QA",
+        "4": "Integração Contínua/Integração de pipeline de implantação, pull requests, code review, unidade/integração",
+        "5": "Trabalho colaborativo com uma grande equipe em diferentes projetos.",
+        "6": "Momento Dev: Reunião para conversar sobre tecnologias, arquitetura de código e boas práticas",
+        "7": "Fiz parte de um grande projeto em um pequeno escopo"
+      },
+      "wipro": {
+        "1": "Liderei aplicações para Vector Solutions com mais de 30 mil clientes utilizando as mais recentes tecnologias de ReactJS, Javascript, CSS, Redux e Perl.",
+        "2": "Desenvolvimento de software com metodologias ágeis, como Scrum e Kanban, utilizando Jira, Confluence, Bitbucket/Github, Slack e Microsoft Teams.",
+        "3": "Trabalho colaborativo com equipe de QA.",
+        "4": "Integração Contínua/Integração de pipeline de implantação, pull requests, code review, teste de carga/estresse, unidade/integração.",
+        "5": "Reporte direto ao CPO: Engenheiro líder para projetar e desenvolver o aplicativo LMS com uma equipe de 4 membros e discussões com equipes externas sobre o produto.",
+        "6": "Conversas e reuniões sobre o projeto em inglês."
+      },
+      "interbrasil": {
+        "1": "Implementei uma plataforma do zero usando ReactJS com NextJS, TypeScript, SCSS, MaterialUI, NodeJS e Strapi.",
+        "2": "Projetei e desenvolvi sistemas que facilitam os processos dentro da empresa.",
+        "3": "Lógica de RH automatizada e otimizada para controle de funcionários, incluindo CRUD e consumo de API.",
+        "4": "Reporte direto ao CEO: Projetando e desenvolvendo o dashboard de controle da fintech que fornece um visual rico de todos os clientes e usuários da empresa."
+      },
+      "lead_dell": {
+        "1": "Implementação e manutenção de cursos acessíveis e responsivos",
+        "2": "Desenvolvimento utilizando leitores de tela, cores acessíveis, contraste, controle de tamanho da fonte do texto. Toda a plataforma é acessível e focada em usuários com deficiência."
+      },
+      "sd2i": {
+        "1": "Reporte direto ao CPO: Desenvolvi funcionalidades iniciais para o gerenciamento da nuvem de dados da fintech.",
+        "2": "Implementação de uma aplicação para fazer pesquisas e gerir os dados destas pesquisas."
+      },
+      "unifor": {
+        "1": "Web scraping: Aplicativo da Web para mineração de dados com base na entrada de uma massa de dados."
+      }
     }
   }
 }

@@ -3,6 +3,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { Header } from "./components/Header";
 import { Introduction } from "./components/Introduction";
 import { Stacks } from "./components/Stacks";
+import { AboutMe } from "./components/AboutMe";
+import { Experiences } from "./components/Experiences";
 
 function App() {
   const isWideVersion = useMediaQuery("(min-width:1080px)");
@@ -20,6 +22,8 @@ function App() {
       <Header />
       <Introduction />
       <Stacks />
+      <AboutMe />
+      <Experiences />
     </Box>
   );
 }

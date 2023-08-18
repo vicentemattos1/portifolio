@@ -5,10 +5,57 @@
     "stacks": "Tech Stack",
     "projects": "Projects",
     "contact": "Contact",
+    "present": "Present",
+    "remote": "Remote",
+    "about-me": {
+      "title": "About me",
+      "description": "Working with web development since 2019, during my development I worked with Javascript, Typescript, ReactJS, NodeJS, HTML and CSS. After a few years I focused more on web development using ReactJS. Currently ReactJS is my main language and I work for one of the biggest coaching companies building platforms."
+    },
     "introduction": {
       "hi": "Hi 👋",
       "my-name-is": "My name is",
       "my-role": "I'm React developer and I build web plataforms."
+    },
+    "experiences": "Experiences",
+    "frontend": "Frontend Developer",
+    "fullstack": "Fullstack Developer",
+    "contract": "Contract",
+    "full_time": "Full Time",
+    "experience-description": {
+      "prolins": {
+        "1": "Developer for Febracis to a project that handles more than 50 thousand clients using the latest technologies of ReactJS, Typescript, CSS, Redux, Radix and MaterialUI.",
+        "2": "Software development with agile methodologies, like Scrum and Kanban, using Taiga, Bitbucket/Github and Zulip.",
+        "3": "Collaborative work with QA team.",
+        "4": "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews",
+        "5": "Collaborative work with a large team in different projects.",
+        "6": "Dev moment: Meeting to talk about techs, architecture of code and good practices.",
+        "7": "Made part of a big project with a small scope."
+      },
+      "wipro": {
+        "1": "Led of applications for Vector Solutions with more than 30 thousand clients using the latest technologies of ReactJS, Javascript, CSS, Redux and Perl.",
+        "2": "Software development with agile methodologies, like Scrum and Kanban, using Jira, Confluence, Bitbucket/Github, Slack and Microsoft Teams.",
+        "3": "Collaborative work with QA team.",
+        "4": "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration",
+        "5": "Reported directly to CPO: Lead engineer for designing and developing the LMS application with a 4 members team and discussions with external teams about the product.",
+        "6": "Conversations and meetings about the project in english."
+      },
+      "interbrasil": {
+        "1": "Implemented a platform from scratch using ReactJS with NextJS, TypeScript, SCSS, MaterialUI, NodeJS and Strapi.",
+        "2": "Designed and developed systems that facilitate processes inside of the company.",
+        "3": "Automated and optimized HR logic for employee control, including CRUD and API Consumption.",
+        "4": "Reported directly to CEO: Designing and developing the fintech control dashboard that provides a rich visual of all clients and users in the company."
+      },
+      "lead_dell": {
+        "1": "Implementation and maintenance of accessible and responsive courses. ",
+        "2": "Development using screen readers, accessible colors, contrast, text font size control. All the platform is accessible and focused in disabled users."
+      },
+      "sd2i": {
+        "1": "Reported directly to CPO: Developed Initial functionalities for the fintech data cloud management.",
+        "2": "Implementation of an application to make surveys and manage the data from these surveys."
+      },
+      "unifor": {
+        "1": "Web scraping: Web application for mining data based on input of a mass of data."
+      }
     }
   }
 }
