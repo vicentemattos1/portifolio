@@ -2,7 +2,7 @@
   "translation": {
     "home": "Inicio",
     "about": "Sobre",
-    "stacks": "Tecnologias",
+    "techs": "Tecnologias",
     "projects": "Projetos",
     "contact": "Contato",
     "present": "Presente",
@@ -25,6 +25,10 @@
     "fullstack": "Desenvolvedor Fullstack",
     "contract": "Contrato",
     "full_time": "Tempo integral",
+    "lang": {
+      "pt-BR": "Português (Brasil)",
+      "en-US": "Inglês (US)"
+    },
     "experience-description": {
       "prolins": {
         "1": "Desenvolvedor para Febracis para um projeto que lida com mais de 50 mil clientes utilizando as tecnologias mais recentes de ReactJS, Typescriot, CSS, Redux, Radix e MaterialUI.",

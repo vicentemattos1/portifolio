@@ -2,7 +2,7 @@
   "translation": {
     "home": "Home",
     "about": "About",
-    "stacks": "Tech Stack",
+    "techs": "Techs",
     "projects": "Projects",
     "contact": "Contact",
     "present": "Present",
@@ -16,11 +16,19 @@
       "my-name-is": "My name is",
       "my-role": "I'm React developer and I build web plataforms."
     },
+    "my-stacks": {
+      "title": "My skills",
+      "description": "Techs that I've been working with"
+    },
     "experiences": "Experiences",
     "frontend": "Frontend Developer",
     "fullstack": "Fullstack Developer",
     "contract": "Contract",
     "full_time": "Full Time",
+    "lang": {
+      "pt-BR": "Portuguese (Brazil)",
+      "en-US": "English (US)"
+    },
     "experience-description": {
       "prolins": {
         "1": "Developer for Febracis to a project that handles more than 50 thousand clients using the latest technologies of ReactJS, Typescript, CSS, Redux, Radix and MaterialUI.",
