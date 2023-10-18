@@ -23,8 +23,11 @@
     "experiences": "Experiências",
     "frontend": "Desenvolvedor Frontend",
     "fullstack": "Desenvolvedor Fullstack",
-    "contract": "Contrato",
-    "full_time": "Tempo integral",
+    "contract-type": {
+      "contract": "Contrato",
+      "full-time": "Tempo integral",
+      "half-time": "Meio período"
+    },
     "lang": {
       "pt-BR": "Português (Brasil)",
       "en-US": "Inglês (US)"
@@ -53,7 +56,7 @@
         "3": "Lógica de RH automatizada e otimizada para controle de funcionários, incluindo CRUD e consumo de API.",
         "4": "Reporte direto ao CEO: Projetando e desenvolvendo o dashboard de controle da fintech que fornece um visual rico de todos os clientes e usuários da empresa."
       },
-      "lead_dell": {
+      "lead-dell": {
         "1": "Implementação e manutenção de cursos acessíveis e responsivos",
         "2": "Desenvolvimento utilizando leitores de tela, cores acessíveis, contraste, controle de tamanho da fonte do texto. Toda a plataforma é acessível e focada em usuários com deficiência."
       },
@@ -64,6 +67,9 @@
       "unifor": {
         "1": "Web scraping: Aplicativo da Web para mineração de dados com base na entrada de uma massa de dados."
       }
-    }
+    },
+    "education": "Educação",
+    "computer-science": "Ciência da computação",
+    "university-education": "Faculdade"
   }
 }

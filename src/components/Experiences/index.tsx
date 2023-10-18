@@ -172,7 +172,7 @@ export const Experiences = () => {
                       textAlign: 'center',
                     }}
                   >
-                    {experience.contract_type ? t(experience.contract_type) : t('full_time')}
+                    {t(`contract-type.${experience.contract_type || 'full-time'}`)}
                   </Typography>
                   <Typography>
                     {!experience.end_date

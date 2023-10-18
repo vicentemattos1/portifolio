@@ -23,8 +23,11 @@
     "experiences": "Experiences",
     "frontend": "Frontend Developer",
     "fullstack": "Fullstack Developer",
-    "contract": "Contract",
-    "full_time": "Full Time",
+    "contract-type": {
+      "contract": "Contract",
+      "full-time": "Full Time",
+      "half-time": "Half time"
+    },
     "lang": {
       "pt-BR": "Portuguese (Brazil)",
       "en-US": "English (US)"
@@ -64,6 +67,9 @@
       "unifor": {
         "1": "Web scraping: Web application for mining data based on input of a mass of data."
       }
-    }
+    },
+    "education": "Education",
+    "computer-science": "Computer science",
+    "university-education": "University"
   }
 }
