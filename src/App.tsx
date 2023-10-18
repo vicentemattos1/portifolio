@@ -6,6 +6,7 @@ import { Stacks } from './components/Stacks';
 import { AboutMe } from './components/AboutMe';
 import { Experiences } from './components/Experiences';
 import { Education } from './components/Education';
+import { Footer } from './components/Footer';
 
 function App() {
   const isWideVersion = useMediaQuery('(min-width:1080px)');
@@ -17,7 +18,7 @@ function App() {
         maxWidth: '1200px',
         width: '100%',
         margin: 'auto',
-        paddingX: isWideVersion ? 0 : '20px',
+        paddingX: isWideVersion ? '10px' : '20px',
       }}
     >
       <Header />
@@ -26,6 +27,7 @@ function App() {
       <AboutMe />
       <Experiences />
       <Education />
+      <Footer />
     </Box>
   );
 }

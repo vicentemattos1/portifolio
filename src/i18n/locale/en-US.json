@@ -70,6 +70,8 @@
     },
     "education": "Education",
     "computer-science": "Computer science",
-    "university-education": "University"
+    "university-education": "University",
+    "mail": "Mail",
+    "phone": "Phone"
   }
 }
