@@ -10,7 +10,7 @@
 
 ## Question 2: For what reason I'm going to use React?
 
-### I've been working with React for a couple years, so this is my best tech. For this project, since this is a simple application, I just followed my hearth. For biggers applications would be necessary a study to know what tech would be the best.
+### I've been working with React for a couple years, so this is my best tech. For this project, since this is a simple application, I just followed my hearth. For a bigger application would be necessary a study to know what tech would be the best.
 
 ## Questions 3: From where the design came from?
 
@@ -25,5 +25,11 @@
 ## What I would do to improve this project
 
 ### Integrate with backend to share quick new functionalities that I discovered
+
+### Add animations for a better UX
+
+## What are the most develop items for this project
+
+### I used MUI(Accordion, Box, Typography, Stack, Select, MenuItem, Drawer) and i18n
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
