@@ -33,7 +33,7 @@ const socialMedias = [
 ];
 export const Footer = () => {
   return (
-    <Box sx={{ m: '40px 20px' }}>
+    <Box id="contact" sx={{ m: '40px 20px' }}>
       <Divider />
       <Box sx={{ display: 'flex', flexDirection: ['column', 'row'], justifyContent: 'space-between', mt: '10px' }}>
         <Typography component="strong" sx={{ textAlign: ['center', 'start'], marginBottom: ['10px', 0] }}>

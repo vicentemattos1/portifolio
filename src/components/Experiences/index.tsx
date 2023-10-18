@@ -79,6 +79,7 @@ export const Experiences = () => {
 
   return (
     <Box
+      id="experiences"
       sx={{
         display: 'flex',
         flexDirection: 'column',

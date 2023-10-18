@@ -1,159 +1,154 @@
-import TS from "../../assets/ts.svg";
-import JS from "../../assets/js.svg";
-import CSS from "../../assets/CSS3.svg";
-import HTML from "../../assets/HTML5.svg";
-import REACT from "../../assets/react.svg";
-import VSCODE from "../../assets/vscode.svg";
-import GITHUB from "../../assets/github.svg";
-import SASS from "../../assets/sass.svg";
-import MUI from "../../assets/mui.svg";
-import ChakraUI from "../../assets/ChakraUI.svg";
-import BitBucket from "../../assets/bitbucket.svg";
-import Redux from "../../assets/redux.svg";
-import jQuery from "../../assets/jquery-2.svg";
-import NodeJS from "../../assets/nodejs-icon.svg";
-import RadixUI from "../../assets/radix-ui.svg";
-import ViteJS from "../../assets/vitejs.svg";
-import JSON from "../../assets/json.svg";
-import JIRA from "../../assets/jira-1.svg";
-import Bootstrap from "../../assets/bootstrap-4.svg";
-import Python3 from "../../assets/python-5.svg";
-import Django from "../../assets/django-community.svg";
+import TS from '../../assets/ts.svg';
+import JS from '../../assets/js.svg';
+import CSS from '../../assets/CSS3.svg';
+import HTML from '../../assets/HTML5.svg';
+import REACT from '../../assets/react.svg';
+import VSCODE from '../../assets/vscode.svg';
+import GITHUB from '../../assets/github.svg';
+import SASS from '../../assets/sass.svg';
+import MUI from '../../assets/mui.svg';
+import ChakraUI from '../../assets/ChakraUI.svg';
+import BitBucket from '../../assets/bitbucket.svg';
+import Redux from '../../assets/redux.svg';
+import jQuery from '../../assets/jquery-2.svg';
+import NodeJS from '../../assets/nodejs-icon.svg';
+import RadixUI from '../../assets/radix-ui.svg';
+import ViteJS from '../../assets/vitejs.svg';
+import JSON from '../../assets/json.svg';
+import JIRA from '../../assets/jira-1.svg';
+import Bootstrap from '../../assets/bootstrap-4.svg';
+import Python3 from '../../assets/python-5.svg';
+import Django from '../../assets/django-community.svg';
 
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Stack from "@mui/material/Stack";
-import { useTranslation } from "react-i18next";
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+import { useTranslation } from 'react-i18next';
 
 interface StacksProps {
-  align?: "start" | "center";
+  align?: 'start' | 'center';
 }
 
 const techs = [
   {
-    label: "Javascript",
+    label: 'Javascript',
     icon: JS,
   },
   {
-    label: "Typescript",
+    label: 'Typescript',
     icon: TS,
   },
   {
-    label: "React",
+    label: 'React',
     icon: REACT,
   },
   {
-    label: "Redux",
+    label: 'Redux',
     icon: Redux,
   },
   {
-    label: "NodeJS",
+    label: 'NodeJS',
     icon: NodeJS,
   },
   {
-    label: "jQuery",
+    label: 'jQuery',
     icon: jQuery,
   },
   {
-    label: "ViteJS",
+    label: 'ViteJS',
     icon: ViteJS,
   },
   {
-    label: "RadixUI",
+    label: 'RadixUI',
     icon: RadixUI,
   },
   {
-    label: "MaterialUI",
+    label: 'MaterialUI',
     icon: MUI,
   },
   {
-    label: "ChakraUI",
+    label: 'ChakraUI',
     icon: ChakraUI,
   },
   {
-    label: "Sass",
+    label: 'Sass',
     icon: SASS,
   },
   {
-    label: "Bootstrap",
+    label: 'Bootstrap',
     icon: Bootstrap,
   },
   {
-    label: "JSON",
+    label: 'JSON',
     icon: JSON,
   },
   {
-    label: "CSS3",
+    label: 'CSS3',
     icon: CSS,
   },
   {
-    label: "Python3",
+    label: 'Python3',
     icon: Python3,
   },
   {
-    label: "Django",
+    label: 'Django',
     icon: Django,
   },
   {
-    label: "HTML5",
+    label: 'HTML5',
     icon: HTML,
   },
   {
-    label: "VSCode",
+    label: 'VSCode',
     icon: VSCODE,
   },
   {
-    label: "Github",
+    label: 'Github',
     icon: GITHUB,
   },
 
   {
-    label: "Bitbucket",
+    label: 'Bitbucket',
     icon: BitBucket,
   },
 
   {
-    label: "JIRA",
+    label: 'JIRA',
     icon: JIRA,
   },
 ];
 
-export const Stacks = ({ align = "center" }: StacksProps) => {
+export const Stacks = ({ align = 'center' }: StacksProps) => {
   const { t } = useTranslation();
   return (
     <Box
+      id="techs"
       sx={{
-        display: "flex",
-        flexDirection: "column",
+        display: 'flex',
+        flexDirection: 'column',
         alignItems: align,
-        fontSize: "28px",
+        fontSize: '28px',
       }}
     >
-      <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-        {t("my-stacks.title")}
+      <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
+        {t('my-stacks.title')}
       </Typography>
-      <Typography sx={{ marginY: "10px" }}>
-        {t("my-stacks.description")}
-      </Typography>
+      <Typography sx={{ marginY: '10px' }}>{t('my-stacks.description')}</Typography>
       <Stack direction="row" flexWrap="wrap" spacing={0} useFlexGap>
         {techs.map((tech, index) => (
           <Typography
             key={tech.label ?? index}
             sx={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
               flex: 1,
-              minWidth: "150px",
-              marginTop: "30px",
+              minWidth: '150px',
+              marginTop: '30px',
             }}
           >
-            <Box
-              component="img"
-              src={tech.icon}
-              sx={{ width: 50, height: 50, marginBottom: "5px" }}
-            />
+            <Box component="img" src={tech.icon} sx={{ width: 50, height: 50, marginBottom: '5px' }} />
             {tech.label}
           </Typography>
         ))}

@@ -3,7 +3,6 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import DrawerComponent from '../DrawerComponent';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import { BiLogoLinkedinSquare, BiLogoGithub, BiSolidHome, BiInfoCircle, BiSolidContact } from 'react-icons/bi';
 import { AiFillTool, AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { LangSelector } from '../LangSelector';
@@ -25,9 +24,9 @@ const options = [
     href: '#techs',
   },
   {
-    label: 'projects',
+    label: 'experiences',
     icon: <AiOutlineFundProjectionScreen />,
-    href: '#projects',
+    href: '#experiences',
   },
   {
     label: 'contact',
@@ -59,9 +58,9 @@ export const Header = () => {
       <Stack spacing={3} direction="row" sx={{ marginTop: '40px', alignSelf: 'end' }}>
         {options.map((option, index) => (
           <Box
-            component={Link}
+            component="a"
             key={index}
-            to={option.href}
+            href={option.href}
             sx={{
               display: 'flex',
               alignItems: 'center',
