@@ -9,12 +9,12 @@
     "remote": "Remote",
     "about-me": {
       "title": "About me",
-      "description": "Working with web development since 2019, during my development I worked with Javascript, Typescript, ReactJS, NodeJS, HTML and CSS. After a few years I focused more on web development using ReactJS. Currently ReactJS is my main language and I work for one of the biggest coaching companies building platforms."
+      "description": "Experienced Full Stack Developer skilled in creating and implementing scalable and responsive web applications, closely collaborating with back-end teams to ensure efficient integration between front-end components and external systems, focusing on comprehensive solutions that meet user needs. On the Frontend, my primary technology is ReactJS, complemented by TypeScript, JavaScript, HTML, CSS, Redux, SCSS, and Tailwind CSS to create efficient interfaces, prioritizing performance and user experience. On the Backend, I have experience with Python and Django, as well as working with databases such as PostgreSQL, MySQL, Prisma, and MongoDB, also utilizing containerization practices with Docker.\n \n I adopt microfrontend practices to ensure more efficient and scalable code maintenance. In projects where VueJS is the best choice, I apply this framework along with tools like Vuetify and Storybook to promote visual consistency and facilitate the development of reusable components. I am also studying the implementation of deployment automation processes with CI/CD using Bitbucket and the execution of automated tests with Vitest and Jest, aiming to optimize the development cycle.\n \n My approach is focused on ensuring high performance of interfaces and smooth user interaction. I actively participate in code reviews, promoting best practices and ensuring the quality of delivered code, as well as maintaining clear and accessible technical documentation, facilitating team collaboration. I also contribute to requirements analysis and prototyping of new projects, offering technical and architectural solutions that meet business demands.\n \n I adopt agile methodologies such as Scrum and Kanban, using tools like Taiga, Bitbucket/GitHub, and Jira for task management and efficient team communication. I work collaboratively with the QA team, ensuring code quality through reviews, tests, and validations. Always seeking innovation, my goal is to deliver scalable and efficient solutions aligned with business needs and end users."
     },
     "introduction": {
       "hi": "Hi 👋",
       "my-name-is": "My name is",
-      "my-role": "I'm React developer and I build web plataforms."
+      "my-role": "I'm Fullstack developer using React, NodeJS and Python."
     },
     "my-stacks": {
       "title": "My skills",
@@ -33,39 +33,81 @@
       "en-US": "English (US)"
     },
     "experience-description": {
-      "prolins": {
-        "1": "Developer for Febracis to a project that handles more than 50 thousand clients using the latest technologies of ReactJS, Typescript, CSS, Redux, Radix and MaterialUI.",
-        "2": "Software development with agile methodologies, like Scrum and Kanban, using Taiga, Bitbucket/Github and Zulip.",
-        "3": "Collaborative work with QA team.",
-        "4": "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews",
-        "5": "Collaborative work with a large team in different projects.",
-        "6": "Dev moment: Meeting to talk about techs, architecture of code and good practices.",
-        "7": "Made part of a big project with a small scope."
+      "febracis": {
+        "1": "Developer on a project serving over 50,000 clients, utilizing the latest technologies such as ReactJS with Vite, Vitest, TypeScript, CSS, Redux, WebSockets, TipTap, Python, Django, RadixUI, and MaterialUI, ensuring high performance and scalability;",
+        "2": "Integrate Google AI services to enhance application functionalities, using artificial intelligence tools to improve user experience and system efficiency;",
+        "3": "Implement Continuous Integration practices, utilizing deployment pipelines, pull requests, code reviews, and unit/integrated tests to ensure code quality and stability;",
+        "4": "Support all stages of the software development cycle, from coding and unit testing to deployment and monitoring, ensuring the delivery of high-quality solutions;",
+        "5": "Develop alongside automated tests using Vitest to ensure that all system functionalities meet requirements and operate as expected;",
+        "6": "Participate in 'Dev Moment' meetings to discuss new technologies, code architecture, and best development practices, fostering continuous learning and knowledge sharing."
       },
       "wipro": {
-        "1": "Led of applications for Vector Solutions with more than 30 thousand clients using the latest technologies of ReactJS, Javascript, CSS, Redux and Perl.",
-        "2": "Software development with agile methodologies, like Scrum and Kanban, using Jira, Confluence, Bitbucket/Github, Slack and Microsoft Teams.",
-        "3": "Collaborative work with QA team.",
-        "4": "Continuous Integration/Deployment Pipeline Integration, pull requests, code reviews, load/stress testing, unit/integration",
-        "5": "Reported directly to CPO: Lead engineer for designing and developing the LMS application with a 4 members team and discussions with external teams about the product.",
-        "6": "Conversations and meetings about the project in english."
+        "1": "Lead the development of applications, utilizing the latest technologies such as ReactJS, JavaScript, CSS, Redux, and Perl, ensuring performance and scalability;",
+        "2": "Implement Continuous Integration practices and deployment pipelines, including pull requests, code reviews, load/stress testing, and unit/integrated tests to ensure system stability;",
+        "3": "Report directly to the CPO, acting as the lead engineer on the LMS application project and development, coordinating a team of 4 members and facilitating discussions with external teams about the product;",
+        "4": "Lead meetings and project management in English, facilitating collaboration between local and international teams and ensuring continuous alignment of project objectives;",
+        "5": "Apply agile methodologies such as Scrum and Kanban in software development, using tools like Jira, Confluence, Bitbucket/GitHub, Slack, and Microsoft Teams to manage tasks, track progress, and promote collaboration."
       },
       "interbrasil": {
-        "1": "Implemented a platform from scratch using ReactJS with NextJS, TypeScript, SCSS, MaterialUI, NodeJS and Strapi.",
-        "2": "Designed and developed systems that facilitate processes inside of the company.",
-        "3": "Automated and optimized HR logic for employee control, including CRUD and API Consumption.",
-        "4": "Reported directly to CEO: Designing and developing the fintech control dashboard that provides a rich visual of all clients and users in the company."
+        "1": "Implement a complete platform from scratch using ReactJS with NextJS, TypeScript, SCSS, MaterialUI, NodeJS, and Strapi to ensure performance, modularity, and an excellent user experience;",
+        "2": "Automate and optimize HR logic for employee management, including the implementation of CRUD functionalities and API integration, facilitating data management and improving workflow;",
+        "3": "Utilize REST APIs, JSON, and NodeJS to integrate external services and data securely and efficiently, providing a continuous flow of information;",
+        "4": "Incorporate UX principles and responsive design to create intuitive interfaces optimized for different devices and screen sizes, prioritizing user experience;",
+        "5": "Report directly to the CEO, designing and developing a control dashboard for the fintech that provides a comprehensive and detailed view of all clients and users, enabling more informed strategic decisions;"
       },
       "lead_dell": {
-        "1": "Implementation and maintenance of accessible and responsive courses. ",
-        "2": "Development using screen readers, accessible colors, contrast, text font size control. All the platform is accessible and focused in disabled users."
+        "1": "Apply JavaScript, CSS, and HTML in conjunction with agile methodologies to develop a responsive web interface, prioritizing performance and usability;",
+        "2": "Implement and maintain accessible and responsive courses, ensuring that content is easy to navigate and adapted for all types of devices;",
+        "3": "Focus on User Experience (UX) principles to create an intuitive and inclusive platform, meeting the needs of all users, especially those with disabilities;",
+        "4": "Develop interfaces compatible with screen readers, using accessibility practices such as high-contrast colors and font size control for a better experience for users with disabilities;",
+        "5": "Configure accessibility features on the platform, allowing for an inclusive and personalized experience for users with different needs."
       },
       "sd2i": {
-        "1": "Reported directly to CPO: Developed Initial functionalities for the fintech data cloud management.",
-        "2": "Implementation of an application to make surveys and manage the data from these surveys."
+        "1": "Utilize Python to develop and automate advanced processes for data collection, processing, and cleaning from research, ensuring consistency and accuracy in the processed information;",
+        "2": "Apply SQL to structure, organize, and query large volumes of data, creating tables and relationships that ensure integrity, accessibility, and speed in retrieving stored information;",
+        "3": "Implement a robust application to conduct research and manage collected data, integrating functionalities that facilitate the collection, storage, and analysis of information;",
+        "4": "Report directly to the CPO, collaborating in defining requirements and developing initial functionalities for managing the fintech's data cloud, focusing on scalability and data security."
       },
       "unifor": {
-        "1": "Web scraping: Web application for mining data based on input of a mass of data."
+        "1": "Develop a web scraping application capable of extracting data from various online sources, automating the collection and processing of large volumes of data for analysis and insight generation;",
+        "2": "Utilize JavaScript, JSON, and jQuery to create dynamic interactions on the front-end, ensuring a responsive interface and efficient processing of extracted data;",
+        "3": "Implement CSS and HTML5 to develop modern and responsive web interfaces, providing an attractive visual experience optimized for different devices and screen sizes;",
+        "4": "Focus on User Experience (UX) principles when designing the interface, prioritizing usability, navigability, and accessibility to ensure an intuitive and pleasant experience for the end user;",
+        "5": "Apply advanced front-end development skills to maximize the application's responsiveness and interactivity."
+      }
+    },
+    "personal-projects": {
+      "control-vue": {
+        "1": "Use Vite to build an develop enviroment fast and efficient, with agility in the development process; implement Vue, a Javascript framework progressive, to build dynamic and interatives user interfaces; apply typescript to add static type to Javascript, ensuring robustness, safety and easy maintenance of code;",
+        "2": "The project's main functionalities include listing, uploading, displaying details, filtering and allowing downloading of CSV files, making it easy to view, update and export data as per the user's needs."
+      },
+      "pizza-shop": {
+        "1": "Develop a management project for a fast food company, including tables to analyze order status, a sales dashboard and control of refunded orders, using technologies such as ReactJS, React Query, RadixUI, TailwindCSS to ensure a responsive, interactive and efficient interface;",
+        "2": "Implement an authentication strategy via magic link, allowing the user to access the application simply by providing their email, without the need for a password, receiving an access link directly in their inbox."
+      },
+      "redux-zustand": {
+        "1": "Develop a video teaching platform project with classes separated into modules, using front-end tools, such as Redux and Zustand, for global state management and data manipulation; tailwindcss for style management; json-server for creating a mock server;",
+        "2": "Implement the logic needed to manage the application state efficiently, focusing on data manipulation."
+      },
+      "posterr": {
+        "1": "Design and develop an application with similar functionality to Twitter, using TypeScript, ReactJS and NextJS to ensure a dynamic and responsive interface;",
+        "2": "Implement ChakraUI to create a modern and accessible user experience, optimizing navigation and interaction with the platform;",
+        "3": "Integrate essential feed, publishing and user interaction features, ensuring performance and scalability, as well as ensuring an intuitive and easy-to-use interface."
+      },
+      "metagame": {
+        "1": "Design and develop a goal-setting application to promote conscious use of time, creating an intuitive interface and functionalities that help users manage and monitor their activities efficiently;",
+        "2": "Use JavaScript with ReactJS and NextJS to provide a dynamic and responsive user experience, integrating ChakraUI to ensure a modern and accessible interface.",
+        "3": "Containerize the application with Docker, ensuring scalability and ease of deployment. Implement Python and Django on the backend to manage data securely and efficiently, providing a fluid and reliable workflow for users."
+      },
+      "textditor": {
+        "1": "Design and develop an application with Notion-like functionality, using TypeScript, ReactJS and ViteJS to ensure a fast and highly responsive user experience;",
+        "2": "Implement TipTap to provide rich, interactive text editing, while using Tailwind CSS to create a flexible, customizable design;",
+        "3": "Integrate note organization, task management and collaboration features, ensuring an intuitive and easy-to-navigate interface, with a focus on efficiency and performance."
+      },
+      "ignews": {
+        "1": "Design and develop a blog with subscription, payment and route control features, using TypeScript, ReactJS and NextJS to create a responsive and high-performance interface;",
+        "2": "Integrate ChakraUI to ensure a modern and accessible user experience, while leveraging Stripe to implement the payments system securely and efficiently;",
+        "3": "Use FaunaDB to manage data in a scalable way and Prismic to facilitate the management of dynamic content on the blog, ensuring flexibility and ease of maintenance."
       }
     },
     "education": "Education",
