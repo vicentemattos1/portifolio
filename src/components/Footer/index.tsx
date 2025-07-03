@@ -8,7 +8,7 @@ import { BiLogoLinkedinSquare, BiLogoGithub } from "react-icons/bi"
 const contactOptions = [
   {
     type: "phone",
-    label: "+55 85 985596334",
+    label: "+55 (85) 985596334",
   },
   {
     type: "mail",

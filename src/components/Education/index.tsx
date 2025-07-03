@@ -5,6 +5,7 @@ import { MdLocationOn } from "react-icons/md"
 import { BsFillBuildingFill } from "react-icons/bs"
 import { useTranslation } from "react-i18next"
 import { formatDate } from "../../utils/formatDate"
+import { Section } from "../Section"
 
 const places = [
   {
@@ -30,18 +31,10 @@ export const Education = () => {
   const isMobile = useMediaQuery("(max-width:1080px)")
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        fontSize: "28px",
-        marginTop: "10px",
-      }}
+    <Section
+      id="education"
+      title={t("education")}
     >
-      <Typography variant="h4" sx={{ marginY: "40px", fontWeight: "bold" }}>
-        {t("education")}
-      </Typography>
       <Box sx={{ width: "100%" }}>
         {places.map((place) => (
           <Box
@@ -125,6 +118,6 @@ export const Education = () => {
           </Box>
         ))}
       </Box>
-    </Box>
+    </Section>
   )
 }

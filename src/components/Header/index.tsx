@@ -19,14 +19,14 @@ const options = [
     href: "#about",
   },
   {
-    label: "techs",
-    icon: <AiFillTool />,
-    href: "#techs",
-  },
-  {
     label: "experiences",
     icon: <AiOutlineFundProjectionScreen />,
     href: "#experiences",
+  },
+  {
+    label: "techs",
+    icon: <AiFillTool />,
+    href: "#techs",
   },
   {
     label: "projects",
@@ -38,14 +38,12 @@ const options = [
     icon: <BiSolidContact />,
     href: "#contact",
   },
-
   {
     label: "Linkedin",
     icon: <BiLogoLinkedinSquare />,
     href: "https://www.linkedin.com/in/vicentemattos1/",
     isExternal: true,
   },
-
   {
     label: "Github",
     icon: <BiLogoGithub />,
@@ -60,32 +58,75 @@ export const Header = () => {
 
   if (isWideVersion) {
     return (
-      <Stack spacing={3} direction="row" sx={{ marginTop: "40px", alignSelf: "end" }}>
-        {options.map((option, index) => (
-          <Box
-            component="a"
-            key={index}
-            href={option.href}
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              color: "var(--text)",
-              textDecoration: "none",
-              fontSize: option.isExternal ? "25px" : "auto",
-              marginRight: "20px",
-              transition: "0.2s",
-              ":hover": {
-                opacity: "0.7",
-              },
-            }}
-            target={option.isExternal ? "_blank" : "_self"}
-          >
-            {!option.isExternal ? t(option.label) : option.icon}
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          paddingY: "20px",
+          borderBottom: "1px solid var(--gray-line)",
+          marginBottom: "20px",
+        }}
+      >
+        <Stack spacing={3} direction="row" sx={{ marginLeft: 'auto',alignItems: "center", }}>
+          {options.slice(0, 6).map((option, index) => (
+            <Box
+              component="a"
+              key={index}
+              href={option.href}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "var(--text)",
+                textDecoration: "none",
+                fontSize: "1rem",
+                fontWeight: "500",
+                padding: "8px 16px",
+                borderRadius: "6px",
+                transition: "all 0.2s ease",
+                "&:hover": {
+                  backgroundColor: "rgba(0, 0, 0, 0.04)",
+                  color: "var(--title)",
+                },
+              }}
+              target={option.isExternal ? "_blank" : "_self"}
+            >
+              {t(option.label)}
+            </Box>
+          ))}
+          
+          <Box sx={{ display: "flex", gap: "12px", alignItems: "center" }}>
+            {options.slice(6).map((option, index) => (
+              <Box
+                component="a"
+                key={index}
+                href={option.href}
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "var(--text)",
+                  textDecoration: "none",
+                  fontSize: "24px",
+                  padding: "8px",
+                  borderRadius: "6px",
+                  transition: "all 0.2s ease",
+                  "&:hover": {
+                    backgroundColor: "rgba(0, 0, 0, 0.04)",
+                    color: "var(--title)",
+                  },
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {option.icon}
+              </Box>
+            ))}
+            <LangSelector />
           </Box>
-        ))}
-        <LangSelector />
-      </Stack>
+        </Stack>
+      </Box>
     )
   }
 

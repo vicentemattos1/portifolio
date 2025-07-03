@@ -19,15 +19,22 @@
   --blue: #2aa9e0;
 }
 
+/* Enhanced responsive typography */
 @media (max-width: 1080px) {
   html {
-    font-size: 93.75%;
+    font-size: 93.75%; /* 15px */
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   html {
-    font-size: 87.5%;
+    font-size: 87.5%; /* 14px */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 81.25%; /* 13px */
   }
 }
 
@@ -39,6 +46,7 @@ body {
   background: var(--background);
   color: var(--text);
   white-space: pre-line;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 body,
@@ -59,22 +67,47 @@ a {
   text-decoration: none;
 }
 
-/* width */
+/* Improved scrollbar styling */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--background);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: var(--gray-line);
+  border-radius: 4px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--text);
+}
+
+/* Enhanced mobile styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+  
+  /* Improve touch targets */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent text selection on interactive elements */
+button, .MuiButton-root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Improve focus visibility */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
 }

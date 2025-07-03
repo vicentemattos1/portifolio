@@ -9,6 +9,7 @@ import { MdExpandMore } from "react-icons/md"
 import { AiFillProject } from "react-icons/ai"
 import { useTranslation } from "react-i18next"
 import { useState } from "react"
+import { ProjectsCard } from "./ProjectsCard"
 
 const projects = [
   {
@@ -37,7 +38,7 @@ const projects = [
     bullet_points: 3,
   },
   {
-    name: "Texditor - Editor de texto",
+    name: "Textditor",
     label: "textditor",
     bullet_points: 3,
   },
@@ -48,7 +49,8 @@ const projects = [
   },
 ]
 
-export const Projects = () => {
+// Old accordion-based component - keeping for reference
+export const ProjectsAccordion = () => {
   const { t } = useTranslation()
   const [expanded, setExpanded] = useState(0)
   const isMobile = useMediaQuery("(max-width:1080px)")
@@ -133,3 +135,6 @@ export const Projects = () => {
     </Box>
   )
 }
+
+// New card-based component - now the default export
+export const Projects = ProjectsCard

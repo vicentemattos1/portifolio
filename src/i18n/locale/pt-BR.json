@@ -9,20 +9,32 @@
     "remote": "Remoto",
     "about-me": {
       "title": "Sobre mim",
-      "description": "Desenvolvedor Full Stack experiente em criar e implementar aplicações web escaláveis e responsivas, colaborando estreitamente com equipes de back-end para garantir integração eficiente entre componentes front-end e sistemas externos, com foco em soluções completas que atendem às necessidades dos usuários. No Frontend, minha tecnologia principal é o ReactJS, complementada com Typescript, JavaScript, HTML, CSS, Redux, SCSS e Tailwind CSS para criar interfaces eficientes, priorizando desempenho e a experiência do usuário. No Backend, tenho experiência com Python e Django, além de trabalhar com bancos de dados como PostgreSQL, MySQL, Prisma e MongoDB, utilizando também práticas de containerização com Docker.\n \n Adoto práticas de microfrontends para garantir uma manutenção de código mais eficiente e escalável. Em projetos onde o VueJS é a melhor escolha, aplico esse framework juntamente com ferramentas como Vuetify e Storybook para promover a consistência visual e facilitar o desenvolvimento de componentes reutilizáveis. Também estou estudando a implementação de processos de automação de deploy com CI/CD utilizando Bitbucket e a execução de testes automatizados com Vitest e Jest, visando otimizar o ciclo de desenvolvimento.\n \n Minha abordagem é focada em garantir a alta performance das interfaces e a interação fluida com o usuário. Participo ativamente das revisões de código, promovendo boas práticas e garantindo a qualidade do código entregue, além de manter a documentação técnica clara e acessível, facilitando a colaboração entre a equipe. Também contribuo na análise de requisitos e prototipagem de novos projetos, oferecendo soluções técnicas e arquiteturais que atendem às demandas do negócio.\n \n Adoto metodologias ágeis como Scrum e Kanban, utilizando ferramentas como Taiga, Bitbucket/GitHub e Jira para o gerenciamento de tarefas e comunicação eficiente dentro da equipe. Trabalho de forma colaborativa com a equipe de QA, garantindo a qualidade do código por meio de revisões, testes e validações. Sempre buscando inovação, meu objetivo é entregar soluções escaláveis e eficientes, alinhadas com as necessidades de negócio e os usuários finais."
+      "job-title": "Engenheiro de Software Full Stack",
+      "chips": {
+        "frontend": "Foco Frontend",
+        "react": "Especialista React",
+        "leader": "Líder de Equipe"
+      },
+      "highlights": {
+        "experience": "Anos de Experiência",
+        "projects": "Projetos Concluídos",
+        "technologies": "Tecnologias",
+        "clients": "Usuários Atendidos"
+      },
+      "description": "Vicente é um <0>Engenheiro de Software focado em frontend</0> com formação em <1>Ciência da Computação</1> pela Unifor e mais de <2>5 anos de experiência</2> construindo <3>aplicações web escaláveis, robustas e centradas no usuário</3>. Ele trabalha como <4>Desenvolvedor Full Stack</4> com forte foco no frontend, usando <5>React.js, Next.js, TypeScript, Node.js, Shadcn, Tailwind CSS, Material UI e SCSS</5> para entregar interfaces modernas, acessíveis e de alta performance.\n\nEle contribuiu para <6>projetos de alto impacto</6> como a <7>plataforma de inteligência de talentos da Acaso</7> usada pelo <8>Nubank</8>, e a <9>plataforma de eventos da Febracis</9>, que atendeu mais de <10>50.000 clientes</10>. Nessas experiências, ele participou do desenvolvimento de <11>MVPs</11>, reestruturou <12>codebases em micro-frontends</12>, integrou <13>IA generativa com ChatGPT</13> e aplicou <14>melhores práticas de CI/CD</14>. No backend, ele trabalha com <15>Node.js e Python (Django/Flask)</15>, usando <16>PostgreSQL, MySQL e MongoDB</16>, juntamente com <17>Docker</17> para deployments containerizados.\n\nVicente é um profissional colaborativo focado na <18>qualidade do código</18>, participando ativamente de <19>revisões de código, testes automatizados e discussões arquiteturais</19>. Ele é fluente em metodologias Ágeis (Scrum e Kanban) e atua como uma ponte entre equipes técnicas e objetivos de negócio, incluindo em projetos internacionais e multifuncionais. Ele está comprometido em entregar soluções de alta qualidade e escaláveis que se alinham com as necessidades do usuário e do negócio."
     },
     "introduction": {
       "hi": "Olá 👋",
       "my-name-is": "Meu nome é",
-      "my-role": "Eu sou desenvolvedor Fullstack utilizando as ferramentas React, NodeJS e Python."
+      "my-role": "Eu sou Desenvolvedor Fullstack especializado em\nReact, Next.js, Tailwind CSS e Node.js."
     },
     "my-stacks": {
       "title": "Minhas tecnologias",
       "description": "Tecnologias que tenho trabalhado ultimamente"
     },
     "experiences": "Experiências",
-    "frontend": "Desenvolvedor Frontend",
-    "fullstack": "Desenvolvedor Fullstack",
+    "frontend": "Engenheiro de Software Frontend",
+    "fullstack": "Engenheiro de Software Fullstack",
     "contract-type": {
       "contract": "Contrato",
       "full-time": "Tempo integral",
@@ -33,81 +45,95 @@
       "en-US": "Inglês (US)"
     },
     "experience-description": {
+      "acaso": {
+        "context": "A Acaso é uma empresa de <0>inteligência de talentos</0> que <1>utiliza IA</1> para gerenciamento de habilidades e <2>atende um dos maiores bancos da LATAM</2>. Como Engenheiro de Software Full Stack com foco em frontend, eu entrego <3>interfaces fluidas e de alta performance</3>. Meu trabalho prioriza <4>experiências de usuário</4> intuitivas e <5>arquitetura escalável</5>.",
+        "1": "Liderou o <0>desenvolvimento end-to-end</0> de uma <1>plataforma web de alta escala</1> para o <2>Nubank</2> dentro do ecossistema da Acaso, entregando um <3>MVP</3> totalmente funcional em tempo recorde e permitindo que mais de <4>9.000 funcionários</4> adotassem a solução.",
+        "2": "<0>Rearquitetou</0> a base de código em módulos baseados em recursos e <1>micro-frontends</1>, aumentando a <2>manutenibilidade</2> e acelerando deployments independentes das equipes.",
+        "3": "Coordenou a migração de <0>Styled Components</0> para <1>Tailwind CSS</1>, criando <2>interfaces fluidas</2> com <3>animações suaves e de alta performance</3>.",
+        "4": "Construiu um ecossistema <0>coeso e otimizado para performance</0> usando <1>React.js/Next.js, TypeScript, Zustand, Context API, React Query, Recharts, Radix, Shadcn e Tailwind CSS</1>.",
+        "5": "Integrou <0>ChatGPT</0> para alimentar <1>baseadas em IA</1> <2>'Habilidades Sugeridas'</2>, melhorando recomendações personalizadas para usuários dentro da plataforma de inteligência de talentos.",
+        "6": "Conduziu <0>desenvolvimento paralelo de recursos</0> entre <1>front-end e back-end</1> (Python, Django REST Framework, Docker), garantindo <2>entrega end-to-end</2> sem gargalos.",
+        "7": "Garantiu <0>qualidade de código</0> através de revisões minuciosas, rastreou tarefas e bugs no Linear, e colaborou em designs de UX para alinhar funcionalidade com necessidades do usuário.",
+        "8": "Manteve <0>comunicação próxima e contínua</0> com QA e <1>equipes multifuncionais</1>, entregando consistentemente <2>novas funcionalidades</2> e conteúdo sob <3>prazos apertados</3>."
+      },
       "febracis": {
-        "1": " Desenvolvedor em um projeto que atende mais de 50 mil clientes, utilizando as tecnologias mais recentes, como ReactJS com Vite, Vitest, TypeScript, CSS, Redux, WebSockets, TipTap, Python, Django, RadixUI e MaterialUI, garantindo alta performance e escalabilidade;",
-        "2": "Integrar serviços de IA do Google para aprimorar as funcionalidades da aplicação, utilizando ferramentas de inteligência artificial para melhorar a experiência do usuário e a eficiência do sistema;",
-        "3": "Implementar práticas de Integração Contínua, utilizando pipelines de implantação, pull requests, code review e testes unitários/integrados para assegurar a qualidade e a estabilidade do código;",
-        "4": "Apoiar em todas as etapas do ciclo de desenvolvimento de software, desde a codificação e testes unitários até a implantação e monitoramento, garantindo a entrega de soluções de alta qualidade;",
-        "5": "Desenvolver em conjunto com testes automatizados utilizando Vitest para garantir que todas as funcionalidades do sistema atendam aos requisitos e funcionem como esperado;",
-        "6": "Participar de reuniões do 'Momento Dev', para discutir novas tecnologias, arquitetura de código e boas práticas de desenvolvimento, fomentando o aprendizado contínuo e a troca de conhecimentos."
+        "context": "A Febracis é a <0>maior instituição de coaching corporativo da América Latina</0>, com presença em mais de <1>40 cidades mundialmente</1>. Eu liderei a <2>arquitetura frontend</2> e construí <3>plataformas do zero</3> usando <4>ReactJS, Vite, Redux e MaterialUI</4>, projetadas para lidar com <5>milhares de usuários</5>. Eu defini <6>melhores práticas em performance, gerenciamento de estado e CI/CD</6> para <7>experiências de usuário escaláveis e modernas</7>.",
+        "1": "Contribuiu para o desenvolvimento de uma <0>plataforma web de alto tráfego</0> atendendo <1>50.000+ clientes</1>, usando <2>ReactJS com Vite, TypeScript, Redux, WebSockets e TipTap</2> no frontend, com <3>Python, Django REST Framework</3> no backend.",
+        "2": "Garantiu <0>alta performance e escalabilidade</0> através de arquitetura moderna, reutilização de componentes e gerenciamento eficaz de estado.",
+        "3": "Integrou <0>serviços de IA do Google</0> para entregar recursos inteligentes de aplicação que melhoraram a experiência do usuário e eficiência do sistema.",
+        "4": "Escreveu <0>testes automatizados usando Vitest</0>, aumentando a confiança nas releases e mantendo alta confiabilidade do código.",
+        "5": "Apoiou todo o <0>ciclo de vida de desenvolvimento de software</0>, desde implementação até deployment e monitoramento, garantindo entrega suave de recursos de alta qualidade.",
+        "6": "Aplicou <0>melhores práticas de CI/CD</0>, incluindo pull requests, <1>revisões de código</1> e pipelines de testes unitários/integração.",
+        "7": "Participou de sessões do Dev Moment, contribuindo para discussões sobre novas tecnologias, melhorias de arquitetura e padrões de codificação para fomentar crescimento da equipe e conhecimento compartilhado."
       },
       "wipro": {
-        "1": "Liderar o desenvolvimento de aplicações, utilizando as mais recentes tecnologias como ReactJS, JavaScript, CSS, Redux e Perl, garantindo desempenho e escalabilidade;",
-        "2": "Implementar práticas de Integração Contínua e pipeline de implantação, incluindo pull requests, code review, testes de carga/estresse, e testes unitários/integrados para assegurar a estabilidade do sistema;",
-        "3": "Reportar diretamente ao CPO, atuando como engenheiro líder no projeto e desenvolvimento do aplicativo LMS, coordenando uma equipe de 4 membros e promovendo discussões com equipes externas sobre o produto;",
-        "4": "Liderança em reuniões e gestão de projetos em inglês, facilitando a colaboração entre equipes locais e internacionais e garantindo o alinhamento contínuo dos objetivos do projeto;",
-        "5": "Aplicar metodologias ágeis como Scrum e Kanban no desenvolvimento de software, utilizando ferramentas como Jira, Confluence, Bitbucket/GitHub, Slack e Microsoft Teams para gerenciar tarefas, acompanhar progresso e promover colaboração."
+        "context": "A Wipro é uma <0>líder global em serviços de tecnologia</0>, onde eu fui o <1>líder técnico de frontend</1> para uma plataforma LMS usada por <2>10.000+ usuários</2>. Eu liderei <3>decisões de arquitetura</3>, alinhei entregas com <4>equipes multifuncionais</4> institucionais, mentorei desenvolvedores e <5>otimizei aplicações React.js para performance</5> usando hooks avançados.",
+        "1": "Atuou como <0>ponto de contato técnico</0> para o frontend do LMS, alinhando desenvolvimento com objetivos do produto em colaboração com o CPO.",
+        "2": "<0>Liderou discussões técnicas</0> dentro de uma <1>equipe de 4 desenvolvedores</1>, mentorando colegas e promovendo <2>código escalável e maintível</2>.",
+        "3": "<0>Melhorou performance em páginas complexas</0> aplicando <1>useMemo, useCallback e React.memo</1> para reduzir re-renders.",
+        "4": "Coordenou esforços com designers, QA, engenheiros de backend e stakeholders para garantir <0>entregas de qualidade</0>.",
+        "5": "<0>Melhorou pipelines de CI/CD</0> com melhores fluxos de PR, cobertura de testes e <1>práticas de revisão de código</1> para aumentar confiabilidade.",
+        "6": "Criou e manteve <0>documentação</0> para agilizar processos de onboarding e deployment.",
+        "7": "Realizou <0>reuniões diárias em inglês</0> com equipes distribuídas para garantir alinhamento, clareza e acompanhamento de progresso.",
+        "8": "Promoveu <0>melhores práticas em arquitetura frontend</0>, design responsivo e padrões de usabilidade.",
+        "9": "Aplicou <0>metodologias ágeis (Scrum/Kanban)</0> usando Jira, Confluence, GitHub, Bitbucket e Slack."
       },
       "interbrasil": {
-        "1": "Implementar uma plataforma completa do zero, utilizando ReactJS com NextJS, TypeScript, SCSS, MaterialUI, NodeJS e Strapi, para garantir performance, modularidade e uma excelente experiência ao usuário;",
-        "2": "Automatizar e otimizar a lógica de RH para controle de funcionários, incluindo a implementação de funcionalidades CRUD e integração de APIs, facilitando o gerenciamento de dados e melhorando o fluxo de trabalho;",
-        "3": "Utilizar REST APIs, JSON e NodeJS para integrar serviços e dados externos de forma segura e eficiente, proporcionando um fluxo contínuo de informações;",
-        "4": "Incorporar princípios de UX e design responsivo para criar interfaces intuitivas e otimizadas para diferentes dispositivos e tamanhos de tela, priorizando a experiência do usuário.",
-        "5": "Reportar diretamente ao CEO, projetando e desenvolvendo um dashboard de controle para a fintech que proporciona uma visão abrangente e detalhada de todos os clientes e usuários, possibilitando decisões estratégicas mais informadas;"
+        "context": "A InterBrasil é uma <0>administradora digital de benefícios de saúde</0> atendendo clientes corporativos em todo o Brasil. Eu participei do <1>desenvolvimento end-to-end</1> de uma plataforma fintech do zero usando <2>ReactJS, Next.js</2> e <3>arquitetura modular com SSR</3>. Meu trabalho <4>focou em performance, design responsivo</4> e automatização de workflows complexos de RH com <5>interfaces intuitivas e escaláveis</5>.",
+        "1": "Liderou o <0>desenvolvimento end-to-end de uma plataforma fintech do zero</0>, usando <1>ReactJS</1> com <2>Next.js</2>, aplicando uma <3>arquitetura modular e baseada em componentes</3> que garantiu escalabilidade, <4>SSR (Server-Side Rendering)</4> e performance rápida.",
+        "2": "Desenvolveu a UI com <0>Material UI, SCSS e React Hooks</0>, seguindo <1>princípios de design responsivo</1> para garantir experiências consistentes entre dispositivos.",
+        "3": "Automatizou <0>lógica complexa de gerenciamento de RH</0>, beneficiando uma equipe de <1>20 funcionários</1> ao transicionar todos os dados manuais baseados em planilhas para uma solução totalmente digital — <2>melhorando significativamente a eficiência do workflow</2> e <3>reduzindo tempo gasto em tarefas repetitivas</3>.",
+        "4": "Desenvolveu integrações robustas usando <0>Next.js, REST APIs e JSON</0> para conectar serviços externos com segurança e sincronizar dados entre sistemas.",
+        "5": "Aplicou design responsivo e <0>princípios de UX</0> para entregar uma experiência de usuário perfeita entre dispositivos, melhorando usabilidade e acessibilidade.",
+        "6": "Desenvolveu algumas funcionalidades no back-end com <0>Node.js</0> e <1>Strapi</1>",
+        "7": "Seguiu <0>metodologias Ágeis</0>, com entrega contínua, controle de versão via Bitbucket e trabalho em equipe estruturado para atender requisitos de negócio."
       },
-      "lead-dell": {
-        "1": "Aplicar JavaScript, CSS e HTML em conjunto com metodologias ágeis para desenvolver uma interface web responsiva, priorizando o desempenho e usabilidade;",
-        "2": "Implementar e manter cursos acessíveis e responsivos, garantindo que o conteúdo seja fácil de navegar e adaptado para todos os tipos de dispositivos;",
-        "3": "Focar em princípios de User Experience (UX) para criar uma plataforma intuitiva e inclusiva, atendendo às necessidades de todos os usuários, especialmente aqueles com deficiência;",
-        "4": "Desenvolver interfaces compatíveis com leitores de tela, usando práticas de acessibilidade como cores de alto contraste e controle de tamanho de fonte para uma melhor experiência para usuários com deficiência;",
-        "5": "Configurar recursos de acessibilidade na plataforma, permitindo uma experiência inclusiva e personalizada para usuários com diferentes necessidades."
+      "lead_dell": {
+        "context": "A LEAD é o <0>Centro de P&D e Inovação</0> da Dell no Brasil, focado em tecnologias inclusivas e <1>baseadas em IA</1>. Eu desenvolvi <2>interfaces web responsivas e acessíveis</2> usando <3>JavaScript, HTML e CSS</3>, <4>garantindo conformidade com WCAG</4> e <5>suporte a leitores de tela</5>. Meu trabalho melhorou a <6>usabilidade para pessoas com deficiências</6> através de <7>recursos inclusivos</7> avançados.",
+        "1": "Desenvolveu <0>interfaces web responsivas e acessíveis</0> usando <1>JavaScript, HTML e CSS</1>, focando em <2>performance, usabilidade</2> e compatibilidade entre dispositivos dentro de um ambiente de desenvolvimento <3>Ágil</3>.",
+        "2": "Implementou e manteve <0>cursos baseados na web</0> com suporte completo à acessibilidade, garantindo compatibilidade com leitores de tela e conformidade com <1>padrões WCAG</1>.",
+        "3": "Aplicou <0>melhores práticas de Experiência do Usuário (UX)</0> para criar uma interface intuitiva para uma ampla gama de usuários, com atenção particular à <1>acessibilidade para pessoas com deficiências</1>.",
+        "4": "Introduziu recursos de acessibilidade como <0>modos de cor de alto contraste, fontes escaláveis e navegação por teclado</0>, melhorando a inclusividade da plataforma e autonomia do usuário.",
+        "5": "Apoiou a configuração e teste de <0>configurações de acessibilidade personalizadas</0>, permitindo uma <1>experiência mais inclusiva e adaptativa</1> para usuários com necessidades variadas.",
+        "6": "Colaborou estreitamente com designers e QA para validar objetivos de usabilidade e acessibilidade, garantindo que as releases atendessem tanto padrões técnicos quanto centrados no usuário."
       },
       "sd2i": {
-        "1": "Utilizar Python para desenvolver e automatizar processos avançados de coleta, tratamento e limpeza de dados das pesquisas, garantindo consistência e precisão nas informações processadas;",
-        "2": "Aplicar SQL para estruturar, organizar e consultar grandes volumes de dados, criando tabelas e relacionamentos que assegurem integridade, acessibilidade e rapidez na recuperação das informações armazenadas;",
-        "3": "Implementar uma aplicação robusta para realizar pesquisas e gerenciar dados coletados, integrando funcionalidades que facilitem a coleta, armazenamento e análise das informações;",
-        "4": "Reportar diretamente ao CPO, colaborando na definição de requisitos e desenvolvendo funcionalidades iniciais para o gerenciamento da nuvem de dados da fintech, com foco em escalabilidade e segurança dos dados."
+        "context": "",
+        "1": "Utilizou Python para desenvolver e automatizar processos avançados de coleta, processamento e limpeza de dados de pesquisas, garantindo consistência e precisão nas informações processadas.",
+        "2": "Aplicou SQL para estruturar, organizar e consultar grandes volumes de dados, criando tabelas e relacionamentos que garantem integridade, acessibilidade e velocidade na recuperação de informações armazenadas.",
+        "3": "Implementou uma aplicação robusta para conduzir pesquisas e gerenciar dados coletados, integrando funcionalidades que facilitam a coleta, armazenamento e análise de informações.",
+        "4": "Reportou diretamente ao CPO, colaborando na definição de requisitos e desenvolvendo funcionalidades iniciais para gerenciar a nuvem de dados da fintech, focando em escalabilidade e segurança de dados."
       },
       "unifor": {
-        "1": "Desenvolver uma aplicação de web scraping capaz de extrair dados de diferentes fontes online, automatizando a coleta e processamento de grandes volumes de dados para análise e geração de insights;",
-        "2": "Utilizar JavaScript, JSON e jQuery para criar interações dinâmicas no front-end, garantindo uma interface responsiva e processamento eficiente dos dados extraídos;",
-        "3": "Implementar CSS e HTML5 para desenvolver interfaces web modernas e responsivas, proporcionando uma experiência visual atraente e otimizada para diferentes dispositivos e tamanhos de tela;",
-        "4": "Focar em princípios de Experiência do Usuário (UX) ao projetar a interface, priorizando a usabilidade, navegabilidade e acessibilidade para garantir uma experiência intuitiva e agradável ao usuário final;",
-        "5": "Aplicar habilidades avançadas de desenvolvimento front-end para maximizar a responsividade e interatividade da aplicação."
+        "context": "",
+        "1": "Desenvolveu uma aplicação de web scraping capaz de extrair dados de várias fontes online, automatizando a coleta e processamento de grandes volumes de dados para análise e geração de insights.",
+        "2": "Utilizou JavaScript, JSON e jQuery para criar interações dinâmicas no front-end, garantindo uma interface responsiva e processamento eficiente dos dados extraídos.",
+        "3": "Implementou CSS e HTML5 para desenvolver interfaces web modernas e responsivas, proporcionando uma experiência visual atraente otimizada para diferentes dispositivos e tamanhos de tela.",
+        "4": "Focou em princípios de Experiência do Usuário (UX) ao projetar a interface, priorizando usabilidade, navegabilidade e acessibilidade para garantir uma experiência intuitiva e agradável para o usuário final.",
+        "5": "Aplicou habilidades avançadas de desenvolvimento front-end para maximizar a responsividade e interatividade da aplicação."
       }
     },
     "personal-projects": {
       "control-vue": {
-        "1": "Utilizar o Vite para construir um ambiente de desenvolvimento rápido e eficiente, garantindo agilidade no processo de desenvolvimento; implementar o Vue, um framework JavaScript progressivo, para criar interfaces de usuário dinâmicas e interativas; aplicar o TypeScript para adicionar tipagem estática ao JavaScript, garantindo a robustez, segurança e manutenibilidade do código;",
-        "2": "As funcionalidades principais do projeto incluem listar, fazer upload, exibir detalhes, filtrar e permitir o download de arquivos CSV, facilitando a visualização, atualização e exportação dos dados conforme a necessidade do usuário."
+        "description": "Uma aplicação abrangente de gerenciamento de arquivos CSV que permite aos usuários carregar, visualizar, filtrar e baixar arquivos CSV com interface intuitiva e recursos avançados de visualização de dados."
       },
       "pizza-shop": {
-        "1": "Desenvolver um projeto de gerenciamento para uma empresa de fast food, incluindo tabelas para analisar o status dos pedidos, um dashboard de vendas e controle de pedidos estornados, utilizando tecnologias como ReactJS, React Query, RadixUI, TailwindCSS para garantir uma interface responsiva, interativa e eficiente;",
-        "2": "Implementar uma estratégia de autenticação via magic link, permitindo que o usuário acesse a aplicação apenas fornecendo o e-mail, sem a necessidade de senha, recebendo um link de acesso diretamente na caixa de entrada."
+        "description": "Um sistema completo de gerenciamento de restaurante com rastreamento de pedidos, análise de vendas, painel administrativo e autenticação sem senha via magic links para operações de fast food."
       },
       "redux-zustand": {
-        "1": "Desenvolver um projeto de plataforma de ensino por video com aulas separadas em módulos, utilizando ferramentas de front-end, como Redux e Zustand, para o gerenciamento de estado global e manipulação de dados; tailwindcss para gerenciamento de estilos; json-server para criação de servidor mock;",
-        "2": "Implementar a lógica necessária para gerenciar o estado da aplicação de forma eficiente, focando na manipulação de dados."
+        "description": "Uma plataforma interativa de aprendizado baseada em vídeo com módulos de lições organizados, rastreamento de progresso e gerenciamento eficiente de estado para entrega perfeita de conteúdo educacional."
       },
       "posterr": {
-        "1": "Projetar e desenvolver uma aplicação com funcionalidades similares às do Twitter, utilizando TypeScript, ReactJS e NextJS para garantir uma interface dinâmica e responsiva;",
-        "2": "Implementar o ChakraUI para criar uma experiência de usuário moderna e acessível, otimizando a navegação e interação com a plataforma;",
-        "3": "Integrar os recursos essenciais de feed, publicações e interações entre usuários, assegurando desempenho e escalabilidade, além de garantir uma interface intuitiva e de fácil uso."
+        "description": "Uma plataforma de mídia social similar ao Twitter com postagens em tempo real, interações de usuário, feeds de conteúdo dinâmico e recursos modernos de rede social para engajamento otimizado do usuário."
       },
       "metagame": {
-        "1": "Projetar e desenvolver um aplicativo de definição de metas para promover o uso consciente do tempo, criando uma interface intuitiva e funcionalidades que ajudem os usuários a gerenciar e monitorar suas atividades de forma eficiente;",
-        "2": "Utilizar JavaScript com ReactJS e NextJS para proporcionar uma experiência de usuário dinâmica e responsiva, integrando o ChakraUI para garantir uma interface moderna e acessível.",
-        "3": "Containerizar a aplicação com Docker, assegurando escalabilidade e facilidade de implantação. Implementar Python e Django no back-end para gerenciar dados de forma segura e eficiente, proporcionando um fluxo de trabalho fluido e confiável para os usuários."
+        "description": "Uma aplicação de produtividade focada em definição de metas e gerenciamento de tempo com monitoramento abrangente de atividades, ajudando usuários a rastrear atividades diárias e desenvolver melhores hábitos."
       },
       "textditor": {
-        "1": "Projetar e desenvolver uma aplicação com funcionalidades semelhantes ao Notion, utilizando TypeScript, ReactJS e ViteJS para garantir uma experiência de usuário rápida e altamente responsiva;",
-        "2": "Implementar o TipTap para proporcionar uma edição de texto rica e interativa, enquanto utilizo o Tailwind CSS para criar um design flexível e personalizável;",
-        "3": "Integrar recursos de organização de notas, gerenciamento de tarefas e colaboração, assegurando uma interface intuitiva e de fácil navegação, com foco em eficiência e desempenho."
+        "description": "Um editor de texto rico e aplicação de produtividade similar ao Notion com recursos avançados de edição, funcionalidades colaborativas, organização de notas e ferramentas flexíveis de gerenciamento de documentos."
       },
       "ignews": {
-        "1": "Projetar e desenvolver um blog com funcionalidades de inscrições, pagamentos e controle de rotas, utilizando TypeScript, ReactJS e NextJS para criar uma interface responsiva e de alta performance;",
-        "2": "Integrar o ChakraUI para garantir uma experiência de usuário moderna e acessível, enquanto utilizo o Stripe para implementar o sistema de pagamentos de forma segura e eficiente;",
-        "3": "Utilizar o FaunaDB para gerenciar dados de forma escalável e o Prismic para facilitar o gerenciamento de conteúdo dinâmico no blog, assegurando flexibilidade e facilidade de manutenção."
+        "description": "Uma plataforma de blog baseada em assinatura com processamento de pagamento integrado, controle de acesso a conteúdo premium, gerenciamento de assinatura de usuário e sistema de entrega de conteúdo dinâmico."
       }
     },
     "education": "Educação",
