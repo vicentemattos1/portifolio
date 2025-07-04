@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ExperiencesAccordion } from '../ExperiencesAccordion';
 import { Section } from '../Section';
 
@@ -80,24 +80,43 @@ const experiences = [
 export const Experiences = () => {
   const { t } = useTranslation();
   const [expanded, setExpanded] = useState(0);
+  const accordionRefs = useRef<(HTMLDivElement | null)[]>([]);
+
   const handleChange = (number: number) => {
     setExpanded(number);
   };
 
+  useEffect(() => {
+    if (accordionRefs.current[expanded]) {
+      const accordionElement = accordionRefs.current[expanded];
+      if (accordionElement) {
+        setTimeout(() => {
+          accordionElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }, 400);
+      }
+    }
+  }, [expanded]);
+
   return (
     <Section id="experiences" title={t('experiences')}>
-      <Box sx={{ width: '100%' }}>
-        {experiences.map((experience, index) => {
-          return (
+      {experiences.map((experience, index) => {
+        return (
+          <Box
+            key={`experience-${index}`}
+            ref={(el: HTMLDivElement | null) => (accordionRefs.current[index] = el)}
+            sx={{ paddingTop: '16px' }}
+          >
             <ExperiencesAccordion
-              key={`experience-${index}`}
               expanded={expanded === index}
               experience={experience}
               handleChange={() => handleChange(index)}
             />
-          );
-        })}
-      </Box>
+          </Box>
+        );
+      })}
     </Section>
   );
 };
