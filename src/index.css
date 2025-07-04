@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap');
 
+/* === Reset básico === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* === Cores e tokens === */
 :root {
   --white: #fff;
   --background: #f2f3f5;
@@ -19,7 +21,12 @@
   --blue: #2aa9e0;
 }
 
-/* Enhanced responsive typography */
+/* === Tipografia responsiva === */
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%; /* 15px */
@@ -38,36 +45,35 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+/* === Estilos globais === */
 body {
   background: var(--background);
   color: var(--text);
-  white-space: pre-line;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
+  font-family: 'Roboto Flex', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-body,
 input,
 textarea,
 button {
-  font-weight: 400;
-  font-size: 1rem;
-  font-family: 'Roboto Flex', serif;
+  font: inherit;
 }
 
 button {
   cursor: pointer;
+  user-select: none;
 }
 
+/* === Links === */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* Improved scrollbar styling */
+/* === Scrollbar personalizada === */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -85,32 +91,22 @@ a {
   background: var(--text);
 }
 
-/* Enhanced mobile styles */
+/* === Acessibilidade === */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* === Estilos mobile extras === */
 @media (max-width: 768px) {
   body {
     font-size: 0.9rem;
   }
 
-  /* Improve touch targets */
   button,
   a {
     min-height: 44px;
     min-width: 44px;
   }
-}
-
-/* Prevent text selection on interactive elements */
-button,
-.MuiButton-root {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Improve focus visibility */
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid var(--blue);
-  outline-offset: 2px;
 }
