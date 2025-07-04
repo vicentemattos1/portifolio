@@ -106,7 +106,6 @@ export const Stacks = () => {
           maxWidth: '1200px',
           width: '100%',
           backgroundColor: 'rgba(255, 255, 255, 0.8)',
-          backdropFilter: 'blur(20px)',
           border: 'solid 1px var(--gray-line)',
           boxShadow: 'rgba(0, 0, 0, 0.08) 0px 4px 12px, rgba(0, 0, 0, 0.05) 0px 1px 0px',
           borderRadius: '20px',
@@ -125,25 +124,27 @@ export const Stacks = () => {
             },
           }}
         >
-          <Grid container spacing={isMobile ? 2 : 3}>
+          <Box
+            sx={{
+              display: 'grid',
+              gridTemplateColumns: [
+                '1fr 1fr',
+                '1fr 1fr 1fr',
+                '1fr 1fr 1fr 1fr',
+                '1fr 1fr 1fr 1fr 1fr',
+              ],
+              gap: ['16px', '24px'],
+              width: '100%',
+            }}
+          >
             {displayedTechs.map((tech) => (
-              <Grid
-                item
-                xs={6}
-                sm={4}
-                md={3}
-                lg={2.4}
-                key={tech.label}
+              <Box
                 sx={{
                   display: 'flex',
                   justifyContent: 'center',
                 }}
               >
                 <Box
-                  component="article"
-                  role="button"
-                  tabIndex={0}
-                  aria-label={`${tech.label} - ${tech.category} technology`}
                   sx={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -155,7 +156,6 @@ export const Stacks = () => {
                     cursor: 'pointer',
                     position: 'relative',
                     background: 'rgba(255, 255, 255, 0.6)',
-                    backdropFilter: 'blur(10px)',
                     border: '1px solid rgba(255, 255, 255, 0.3)',
                     minHeight: isMobile ? '110px' : '130px',
                     width: '100%',
@@ -229,7 +229,6 @@ export const Stacks = () => {
                     {tech.label}
                   </Typography>
 
-                  {/* Category indicator */}
                   <Box
                     className="category-dot"
                     sx={{
@@ -245,10 +244,9 @@ export const Stacks = () => {
                     }}
                   />
                 </Box>
-              </Grid>
+              </Box>
             ))}
-          </Grid>
-
+          </Box>
           {hasMoreTechs && (
             <Box sx={{ marginTop: '40px', display: 'flex', justifyContent: 'center' }}>
               <Button
@@ -258,7 +256,6 @@ export const Stacks = () => {
                   color: 'var(--title)',
                   borderColor: 'var(--gray-line)',
                   backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                  backdropFilter: 'blur(10px)',
                   borderRadius: '25px',
                   padding: '12px 30px',
                   fontSize: '0.9rem',

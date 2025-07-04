@@ -50,7 +50,6 @@ export const AboutMe = () => {
         width: '100%',
         marginTop: '10px',
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
-        backdropFilter: 'blur(25px)',
         border: '1px solid var(--gray-line)',
         borderRadius: '16px',
 
@@ -172,7 +171,6 @@ export const AboutMe = () => {
                   textAlign: 'center',
                   padding: isMobile ? '20px 10px' : '30px 20px',
                   backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                  backdropFilter: 'blur(20px)',
                   border: '1px solid rgba(255, 255, 255, 0.3)',
                   borderRadius: '16px',
                   transition: 'all 0.3s ease',
