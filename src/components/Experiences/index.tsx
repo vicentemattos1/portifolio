@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import { useTranslation } from 'react-i18next';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { ExperiencesAccordion } from '../ExperiencesAccordion';
 import { Section } from '../Section';
 
