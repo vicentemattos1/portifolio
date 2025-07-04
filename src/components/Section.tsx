@@ -1,27 +1,26 @@
-import { Box, Typography } from "@mui/material";
-import { ReactNode } from "react";
+import { Box, Typography } from '@mui/material';
+import { ReactNode } from 'react';
 
 type SectionTitle = {
-  id: string
-  title: string
-  children: ReactNode
-}
+  id: string;
+  title: string;
+  children: ReactNode;
+};
 
-export function Section({ id, title,children }: SectionTitle){
+export function Section({ id, title, children }: SectionTitle) {
   return (
     <Box
       id={id}
       sx={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        fontSize: "28px",
-        marginTop: "10px",
-        color: '#42446e'
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        fontSize: '28px',
+        marginTop: '10px',
+        color: '#42446e',
       }}
     >
-
-      <Typography variant="h4" sx={{ marginY: ['20px',"40px"], fontWeight: "bold" }}>
+      <Typography variant="h4" sx={{ marginY: ['20px', '40px'], fontWeight: 'bold' }}>
         {title}
       </Typography>
       {children}

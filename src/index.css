@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap');
 
 * {
   margin: 0;
@@ -55,7 +55,7 @@ textarea,
 button {
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Roboto Flex", serif;
+  font-family: 'Roboto Flex', serif;
 }
 
 button {
@@ -90,16 +90,18 @@ a {
   body {
     font-size: 0.9rem;
   }
-  
+
   /* Improve touch targets */
-  button, a {
+  button,
+  a {
     min-height: 44px;
     min-width: 44px;
   }
 }
 
 /* Prevent text selection on interactive elements */
-button, .MuiButton-root {
+button,
+.MuiButton-root {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -107,7 +109,8 @@ button, .MuiButton-root {
 }
 
 /* Improve focus visibility */
-a:focus-visible, button:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 2px;
 }

@@ -1,4 +1,3 @@
-
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
@@ -12,7 +11,6 @@ import { keyframes } from '@mui/system';
 import { useState, useMemo } from 'react';
 import { Section } from '../Section';
 import { techs } from './techs';
-
 
 // Animation keyframes
 const float = keyframes`
@@ -35,63 +33,74 @@ const categoryColors = {
 
 export const Stacks = () => {
   const { t } = useTranslation();
-  const isTabletVersion = useMediaQuery("(min-width:768px)");
-  const isMobile = useMediaQuery("(max-width:767px)");
+  const isTabletVersion = useMediaQuery('(min-width:768px)');
+  const isMobile = useMediaQuery('(max-width:767px)');
   const [showAll, setShowAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  
+
   const MOBILE_INITIAL_COUNT = 8;
-  
+
   // Memoize filtered techs for performance
   const filteredTechs = useMemo(() => {
     if (selectedCategory === 'all') return techs;
-    return techs.filter(tech => tech.category === selectedCategory);
+    return techs.filter((tech) => tech.category === selectedCategory);
   }, [selectedCategory]);
-  
-  const displayedTechs = isMobile && !showAll ? filteredTechs.slice(0, MOBILE_INITIAL_COUNT) : filteredTechs;
+
+  const displayedTechs =
+    isMobile && !showAll ? filteredTechs.slice(0, MOBILE_INITIAL_COUNT) : filteredTechs;
   const hasMoreTechs = isMobile && filteredTechs.length > MOBILE_INITIAL_COUNT;
-  
+
   // Get unique categories
   const categories = useMemo(() => {
-    const uniqueCategories = Array.from(new Set(techs.map(tech => tech.category)));
+    const uniqueCategories = Array.from(new Set(techs.map((tech) => tech.category)));
     return ['all', ...uniqueCategories];
   }, []);
-  
+
   return (
-    <Section
-      id="techs"
-      title={t('my-stacks.title')}
-    >
-      <Box sx={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        flexWrap: 'wrap',
-        gap: 1,
-        marginBottom: '30px',
-      }}>
+    <Section id="techs" title={t('my-stacks.title')}>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: 1,
+          marginBottom: '30px',
+        }}
+      >
         {categories.map((category) => (
           <Chip
             key={category}
-            label={category === 'all' ? 'All' : category.charAt(0).toUpperCase() + category.slice(1)}
+            label={
+              category === 'all' ? 'All' : category.charAt(0).toUpperCase() + category.slice(1)
+            }
             onClick={() => setSelectedCategory(category)}
             variant={selectedCategory === category ? 'filled' : 'outlined'}
             sx={{
-              backgroundColor: selectedCategory === category 
-                ? (category === 'all' ? 'var(--blue)' : categoryColors[category as keyof typeof categoryColors])
-                : 'transparent',
+              backgroundColor:
+                selectedCategory === category
+                  ? category === 'all'
+                    ? 'var(--blue)'
+                    : categoryColors[category as keyof typeof categoryColors]
+                  : 'transparent',
               color: selectedCategory === category ? 'white' : 'var(--text)',
-              borderColor: category === 'all' ? 'var(--blue)' : categoryColors[category as keyof typeof categoryColors] || 'var(--gray-line)',
+              borderColor:
+                category === 'all'
+                  ? 'var(--blue)'
+                  : categoryColors[category as keyof typeof categoryColors] || 'var(--gray-line)',
               '&:hover': {
-                backgroundColor: selectedCategory === category 
-                  ? (category === 'all' ? 'var(--blue)' : categoryColors[category as keyof typeof categoryColors])
-                  : 'rgba(0, 0, 0, 0.04)',
+                backgroundColor:
+                  selectedCategory === category
+                    ? category === 'all'
+                      ? 'var(--blue)'
+                      : categoryColors[category as keyof typeof categoryColors]
+                    : 'rgba(0, 0, 0, 0.04)',
               },
               transition: 'all 0.3s ease',
             }}
           />
         ))}
       </Box>
-      
+
       <Card
         sx={{
           maxWidth: '1200px',
@@ -118,12 +127,12 @@ export const Stacks = () => {
         >
           <Grid container spacing={isMobile ? 2 : 3}>
             {displayedTechs.map((tech) => (
-              <Grid 
-                item 
-                xs={6} 
-                sm={4} 
-                md={3} 
-                lg={2.4} 
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                md={3}
+                lg={2.4}
                 key={tech.label}
                 sx={{
                   display: 'flex',
@@ -188,20 +197,20 @@ export const Stacks = () => {
                     },
                   }}
                 >
-                  <Box 
-                    component="img" 
+                  <Box
+                    component="img"
                     src={tech.icon}
                     alt={`${tech.label} logo`}
                     className="tech-icon"
-                    sx={{ 
-                      width: isMobile ? 42 : isTabletVersion ? 50 : 58, 
-                      height: isMobile ? 42 : isTabletVersion ? 50 : 58, 
+                    sx={{
+                      width: isMobile ? 42 : isTabletVersion ? 50 : 58,
+                      height: isMobile ? 42 : isTabletVersion ? 50 : 58,
                       marginBottom: '12px',
                       filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))',
                       transition: 'all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
                       zIndex: 1,
                       objectFit: 'contain',
-                    }} 
+                    }}
                   />
                   <Typography
                     className="tech-label"
@@ -219,7 +228,7 @@ export const Stacks = () => {
                   >
                     {tech.label}
                   </Typography>
-                  
+
                   {/* Category indicator */}
                   <Box
                     className="category-dot"
@@ -239,7 +248,7 @@ export const Stacks = () => {
               </Grid>
             ))}
           </Grid>
-          
+
           {hasMoreTechs && (
             <Box sx={{ marginTop: '40px', display: 'flex', justifyContent: 'center' }}>
               <Button
@@ -265,13 +274,15 @@ export const Stacks = () => {
                   },
                 }}
               >
-                {showAll ? 'Show Less' : `Show All (${filteredTechs.length - MOBILE_INITIAL_COUNT} more)`}
+                {showAll
+                  ? 'Show Less'
+                  : `Show All (${filteredTechs.length - MOBILE_INITIAL_COUNT} more)`}
               </Button>
             </Box>
           )}
         </CardContent>
       </Card>
-      
+
       <Box
         sx={{
           position: 'absolute',
