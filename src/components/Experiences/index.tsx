@@ -84,21 +84,18 @@ export const Experiences = () => {
 
   const handleChange = (number: number) => {
     setExpanded(number);
-  };
-
-  useEffect(() => {
-    if (accordionRefs.current[expanded]) {
-      const accordionElement = accordionRefs.current[expanded];
+    if (accordionRefs.current[number]) {
+      const accordionElement = accordionRefs.current[number];
       if (accordionElement) {
         setTimeout(() => {
           accordionElement.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
           });
-        }, 400);
+        }, 500);
       }
     }
-  }, [expanded]);
+  };
 
   return (
     <Section id="experiences" title={t('experiences')}>
